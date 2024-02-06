@@ -1,0 +1,49 @@
+
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="slider">
+<button class="slider-arrow left-arrow" onclick="scrollSliderLeft()">❮</button>
+<button class="slider-arrow right-arrow" onclick="scrollSliderRight()">❯</button>
+
+    <div class="slides">
+      <div class="slide"><img src="./aassets/Снимок экрана 2024-02-06 155721.png" onclick="openModal(0)"></div>
+      <div class="slide"><img src="./aassets/Снимок экрана 2024-02-06 155721.png" onclick="openModal(1)"></div>
+      <div class="slide"><img src="./aassets/Снимок экрана 2024-02-06 155721.png" onclick="openModal(2)"></div>
+      <div class="slide"><img src="./aassets/Снимок экрана 2024-02-06 155721.png" onclick="openModal(3)"></div>
+      <div class="slide"><img src="./aassets/Снимок экрана 2024-02-06 155721.png" onclick="openModal(4)"></div>
+      <div class="slide"><img src="./aassets/Снимок экрана 2024-02-06 155721.png" onclick="openModal(5)"></div>
+      <div class="slide"><img src="./aassets/Снимок экрана 2024-02-06 155721.png" onclick="openModal(6)"></div>
+      <div class="slide"><img src="./aassets/Снимок экрана 2024-02-06 155721.png" onclick="openModal(7)"></div>
+    </div>
+    
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <iframe id="video0" src="https://player.vimeo.com/video/824804225?autoplay=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <iframe id="video1" src="https://player.vimeo.com/video/824804225?autoplay=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <iframe id="video2" src="https://player.vimeo.com/video/824804225?autoplay=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <iframe id="video3" src="https://player.vimeo.com/video/824804225?autoplay=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <iframe id="video4" src="https://player.vimeo.com/video/824804225?autoplay=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <iframe id="video5" src="https://player.vimeo.com/video/824804225?autoplay=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <iframe id="video6" src="https://player.vimeo.com/video/824804225?autoplay=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <iframe id="video7" src="https://player.vimeo.com/video/824804225?autoplay=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <span class="close" onclick="closeModal()">×</span>
+      <div class="pagination">
+        <span class="dot active" onclick="showVideo(0)"></span>
+        <span class="dot" onclick="showVideo(1)"></span>
+        <span class="dot" onclick="showVideo(2)"></span>
+        <span class="dot" onclick="showVideo(3)"></span>
+        <span class="dot" onclick="showVideo(4)"></span>
+        <span class="dot" onclick="showVideo(5)"></span>
+        <span class="dot" onclick="showVideo(6)"></span>
+        <span class="dot" onclick="showVideo(7)"></span>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
